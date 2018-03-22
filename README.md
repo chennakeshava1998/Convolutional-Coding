@@ -8,21 +8,17 @@ This repository contains code for choosing the best pair of generator polynomial
 #### Problem Statement: <br>
     Demonstrate convolutional coding with constriant length = 10, and rate = 1/2.
 <hr>
-#### Members:
 
-**Chenna Keshava B S** (16CO108)
-<br>
-**Indrajeet** (16CO116)
-<hr>
-#### Explanation of Files:
+
+<b>Explanation of Files:</b>
 
 We have divided this project into 5 files.
 <hr>
-##### Flow of control: 
+<b>Flow of control:</b> 
 
 We will only call main.m function from the terminal. We have chosen 6-bit datawords for consideration. The main.m functin makes a call to all the other functions specified.
 <hr>
-#### Explanation of files:
+<b>Explanation of files:</b>
 
 __main.m :__ This is the main function that needs to be called for implementing this convolution code. We are considering a set of 10 generator polynomials. We aim to find the best
  pair of generator polynomials. I have considered the two polynomials specified at the beginning of the file. I have considered other generator polynomials which
@@ -74,7 +70,8 @@ Error incurred by all the pairs of generators:
 
 
 <hr>
-#### Limitations:<br>
+<b>Limitations:</b>
+<br>
 1. We have only considered 6-bit datawords and around 1000 such words. But a more comprehensive study needs to be conducted in order to find the best pair of
 generator polynomials for production purposes.
 2. Usage of the Fano algorithm might improve the overall efficiency of this process, but here we have used the Viterbi algorithm.
