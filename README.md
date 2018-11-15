@@ -29,7 +29,7 @@ __main.m :__ This is the main function that needs to be called for implementing 
  
 Note: nextState() function is used to construct the nestStates for all the 2^m states. Similarly, outputs matrix is also constructed for every new pair of
 generators. Both these are critical to building the **trellis** structure. the **istrellis()** function is used to check the validity of the trellis structure.
-It returns *isok*, which is a boolena value, and also returns a string *status*, containing debug information.
+It returns *isok*, which is a boolean value, and also returns a string *status*, containing debug information.
 
 **encoder.m :** This function is used to convert the dataword into the codeword. 
 
@@ -66,12 +66,13 @@ Information during execution of the program:
 <br>
 Error incurred by all the pairs of generators:
 <br>
-![Error matrix of pairs of generators](./cost-of-all-generator-pairs.png)
+
 
 
 <hr>
 <b>Limitations:</b>
 <br>
+
 1. We have only considered 6-bit datawords and around 1000 such words. But a more comprehensive study needs to be conducted in order to find the best pair of
 generator polynomials for production purposes.
 2. Usage of the Fano algorithm might improve the overall efficiency of this process, but here we have used the Viterbi algorithm.
